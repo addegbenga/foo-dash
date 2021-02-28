@@ -122,7 +122,7 @@
       margin-bottom: 3rem;
     }
     .download-btn {
-     display: flex;
+      display: flex;
       button {
         margin-left: 0.6rem;
         font-size: 12px;
@@ -143,30 +143,137 @@
       }
     }
   }
-  .footer-container{
+  .footer-container {
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ul{
+    ul {
       display: flex;
       justify-content: center;
       width: 100%;
       align-items: center;
       margin-right: 1.7rem;
-      li{
+      li {
         list-style: none;
-        .fa-facebook,.fa-twitter,.fa-linkedin{
+        .fa-facebook,
+        .fa-twitter,
+        .fa-linkedin {
           padding-left: 0.7rem;
-          color:#fa4a0c ;
+          color: #fa4a0c;
         }
       }
     }
-    p{
+    p {
       font-size: 12px;
       margin-top: -10px;
       text-align: center;
+    }
+  }
+}
+
+//desktop screens ******************************************************************
+@media screen and(min-width:764px) {
+  .landing-section {
+    .landing-intro-container {
+      background: url("../img/hero2.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      .landing-intro-wrapper {
+        padding-bottom: 7rem;
+        h6 {
+          color: white;
+        }
+        h1 {
+          color: white;
+          width: 60%;
+          text-align: center;
+          letter-spacing: 0.9px;
+        }
+        p {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          color: rgba(255, 255, 255, 0.953);
+        }
+        .landing-intro-btn {
+          flex-direction: unset;
+          justify-content: center;
+          button {
+            width: 150px;
+            margin: unset;
+            margin: 0.5rem;
+          }
+          .btn-appstore {
+            background: transparent;
+            border: 0.7px solid white;
+
+            color: white;
+          }
+        }
+      }
+    }
+    .landing-mockup1 {
+      margin: auto;
+      margin-top: -16rem;
+      // margin: auto;
+      width: 400px;
+    }
+    .account-container {
+      .account-title {
+        padding-bottom: unset;
+        padding-top: 20px;
+        &::before {
+          bottom: unset;
+          top: 0;
+          width: 50%;
+          left: 25%;
+        }
+      }
+      .account-wrapper {
+        flex-direction: unset;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        .account-reg-container {
+          text-align: unset;
+          align-items: unset;
+          p {
+            width: 60%;
+            padding-top: 0.5rem;
+          }
+          h2 {
+            padding-bottom: 0.5rem;
+          }
+        }
+        .mask2 {
+          padding-left: unset;
+        }
+      }
+      .wrapper-center {
+        flex-direction: row;
+        margin-left: 8rem;
+        .account-reg-container {
+          text-align: unset;
+          align-items: unset;
+          p {
+            width: 80%;
+            padding-top: 0.5rem;
+          }
+        }
+      }
+    }
+    .download-container {
+      background-color: black;
+      background: url("../img/hero.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 70vh;
+      .download-btn{
+        justify-content: center;
+        button{
+          width: 130px;
+        }
+      }
     }
   }
 }

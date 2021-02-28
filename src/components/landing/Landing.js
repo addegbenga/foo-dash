@@ -36,7 +36,7 @@ export default function Landing() {
       </div>
       <div className="account-container">
         {/* <h1 className="account-title">Explore while shopping</h1> */}
-        <div className="account-wrapper">
+        <div className="account-wrapper wrapper-center">
           <div className="account-reg-container">
             <h2>Explore while shopping</h2>
             <h1>Shop for your favorites meal as e dey hot.</h1>

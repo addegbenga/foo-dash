@@ -6,6 +6,20 @@ export default function Navbar() {
     <div className="nav-container">
       <div className="nav-wrapper">
         <img src={logo} alt="logo" />
+        <ul>
+          <li>
+            Home
+          </li>
+          <li>
+            Product
+          </li>
+          <li>
+            Faq
+          </li>
+          <li>
+            Contact
+          </li>
+        </ul>
         <i className="fa fa-bars bar"></i>
       </div>
     </div>
