@@ -1,0 +1,159 @@
+.landing-section {
+  .landing-intro-container {
+    background: #fafafa;
+    .landing-intro-wrapper {
+      padding-top: 3rem;
+      padding-bottom: 5rem;
+      text-align: center;
+      h6 {
+        font-weight: 900;
+        font-size: 12px;
+        color: #737373;
+      }
+      h1 {
+        color: #252b42;
+        width: 95%;
+        margin: auto;
+        font-weight: 700;
+      }
+      p {
+        color: #737373;
+        margin-top: 1rem;
+      }
+      .landing-intro-btn {
+        display: flex;
+        flex-direction: column;
+        button {
+          width: 60%;
+          margin: auto;
+          margin-bottom: 0.7rem;
+          border: none;
+          outline: none;
+          padding: 10px;
+          border-radius: 20px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+        .btn-playstore {
+          background: #fa4a0c;
+          color: #ffffff;
+        }
+        .btn-appstore {
+          background: transparent;
+          border: 0.7px solid #fa4a0c;
+
+          color: #fa4a0c;
+        }
+      }
+    }
+  }
+  .landing-mockup1 {
+    margin-top: -12rem;
+  }
+  .account-container {
+    margin-top: -3rem;
+    .account-title {
+      text-align: center;
+      position: relative;
+      padding-bottom: 2rem;
+      font-weight: 600;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        background-color: #e4e4e4;
+        width: 100%;
+      }
+    }
+    .account-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .account-reg-container {
+        width: 85%;
+        margin: auto;
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        h2 {
+          color: #fa4a0c;
+          font-size: 24px;
+          font-weight: bold;
+          padding-bottom: 2rem;
+        }
+        h1 {
+          font-size: 40px;
+          font-weight: bold;
+          color: #252b42;
+        }
+        p {
+          padding-top: 2rem;
+          font-size: 24px;
+        }
+      }
+      .mask2 {
+        padding-left: 3rem;
+      }
+    }
+  }
+  .download-container {
+    background-color: #252b42;
+    text-align: center;
+    padding: 4rem;
+    min-height: 30vh;
+    h1 {
+      color: #ffffff;
+    }
+    p {
+      color: #c7c7c7;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .download-btn {
+     display: flex;
+      button {
+        margin-left: 0.6rem;
+        font-size: 12px;
+        width: 70%;
+        border: none;
+        outline: none;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      .buy-now-btn {
+        background: #fa4a0c;
+        color: #ffffff;
+      }
+      .try-btn {
+        border: 1px solid #ffffff;
+        background: transparent;
+        color: #ffffff;
+      }
+    }
+  }
+  .footer-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // // justify-content: space-around;
+    // background-color: red;
+    ul{
+      display: flex;
+      li{
+        list-style: none;
+        .fa-facebook,.fa-twitter,.fa-linkedin{
+          margin: 0.7rem;
+          color:#fa4a0c ;
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.nav-container {
+  background-color: #ffffff;
+}
+
+.nav-container .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-container .nav-wrapper img {
+  width: 30%;
+}
+
+.nav-container .nav-wrapper .bar {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=nav.css.map */
