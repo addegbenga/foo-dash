@@ -154,10 +154,11 @@
       justify-content: center;
       width: 100%;
       align-items: center;
+      margin-right: 1.7rem;
       li{
         list-style: none;
         .fa-facebook,.fa-twitter,.fa-linkedin{
-          padding: 0.7rem;
+          padding-left: 0.7rem;
           color:#fa4a0c ;
         }
       }
